@@ -1,0 +1,10 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Users/ASA/Desktop/Digital Pulse Detection/Digital Pulse Detection.srcs/sim_1/new/TB_Filter.vhd,1765223478,vhdl,,,,tb_filter,,,,,,,,
+C:/Users/ASA/Desktop/Digital Pulse Detection/Digital Pulse Detection.srcs/sim_1/new/TB_Main.vhd,1765286562,vhdl,,,,tb_main,,,,,,,,
+C:/Users/ASA/Desktop/Digital Pulse Detection/Digital Pulse Detection.srcs/sources_1/new/Glitch Filter.vhd,1764448919,vhdl,C:/Users/ASA/Desktop/Digital Pulse Detection/Digital Pulse Detection.srcs/sources_1/new/Main.vhd,,,glitch_filter,,,,,,,,
+C:/Users/ASA/Desktop/Digital Pulse Detection/Digital Pulse Detection.srcs/sources_1/new/Glitch_Filter_V2.vhd,1765223768,vhdl,C:/Users/ASA/Desktop/Digital Pulse Detection/Digital Pulse Detection.srcs/sources_1/new/Main.vhd,,,glitch_filter_v2,,,,,,,,
+C:/Users/ASA/Desktop/Digital Pulse Detection/Digital Pulse Detection.srcs/sources_1/new/Glitch_Filter_V3.vhd,1765223037,vhdl,C:/Users/ASA/Desktop/Digital Pulse Detection/Digital Pulse Detection.srcs/sim_1/new/TB_Filter.vhd,,,glitch_filter_v3,,,,,,,,
+C:/Users/ASA/Desktop/Digital Pulse Detection/Digital Pulse Detection.srcs/sources_1/new/Main.vhd,1765177379,vhdl,C:/Users/ASA/Desktop/Digital Pulse Detection/Digital Pulse Detection.srcs/sim_1/new/TB_Main.vhd,,,main,,,,,,,,

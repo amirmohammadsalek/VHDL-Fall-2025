@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Digital Pulse Detection.srcs/sources_1/new/Glitch_Filter_V2.vhd" \
+"../../../../Digital Pulse Detection.srcs/sim_1/new/TB_Filter.vhd" \
+
+# Do not sort compile order
+nosort

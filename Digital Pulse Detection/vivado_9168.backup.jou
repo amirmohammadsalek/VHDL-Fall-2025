@@ -1,0 +1,69 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Nov 29 22:12:55 2025
+# Process ID: 9168
+# Current directory: C:/Users/ASA/Desktop/Digital Pulse Detection
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18272 C:\Users\ASA\Desktop\Digital Pulse Detection\Digital Pulse Detection.xpr
+# Log file: C:/Users/ASA/Desktop/Digital Pulse Detection/vivado.log
+# Journal file: C:/Users/ASA/Desktop/Digital Pulse Detection\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ASA/Desktop/Digital Pulse Detection/Digital Pulse Detection.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_Filter.tcl
+close_sim
+launch_simulation
+source tb_Filter.tcl
+close_sim
+launch_simulation
+source tb_Filter.tcl
+set_property top tb_Main [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+close_sim
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_Main.tcl
+close_sim
+launch_simulation
+source tb_Main.tcl
+close_sim
+launch_simulation
+source tb_Main.tcl
+close_sim
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_Main.tcl
+close_sim
+launch_simulation
+source tb_Main.tcl
+restart
+run 1 us
+close_sim
+set_property top tb_Filter [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+source tb_Filter.tcl
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+source tb_Filter.tcl
+close_sim
+launch_simulation
+source tb_Filter.tcl
+close_sim
+launch_simulation
+source tb_Filter.tcl
+close_sim
+launch_simulation
+source tb_Filter.tcl
+close_sim
+launch_simulation
+source tb_Filter.tcl
+close_sim
+launch_simulation
+source tb_Filter.tcl
+close_sim
