@@ -1,1 +1,48 @@
+# --- HDL Compilation & Simulation ---
+work/
+transcript
+vsim.wlf
+*.vstf
+*.vlog
+*.db
+*.sdb
+*.vcd
+*.wdb
+*.jou
+*.log
 
+# --- Xilinx Vivado ---
+.Xil/
+*.jou
+*.log
+*.pb
+*.str
+*.dir
+*.prm
+*.sh
+*.tcl
+*.vdi
+*.xdc.bak
+xsim.dir/
+xvlog.pb
+xelab.pb
+xsim.jou
+xsim.log
+
+# --- Altera/Intel Quartus ---
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+hc_output/
+*.rpt
+*.summary
+*.qws
+*.done
+*.pin
+*.jdi
+
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
+*.swp
