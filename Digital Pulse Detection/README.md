@@ -24,7 +24,7 @@ Valid pulses (those that pass the filter) are measured and categorized into four
 ## 📈 Simulation Result
 The following waveform demonstrates the system's ability to filter out glitches and correctly increment the `Medium_Count` and `Long_Count` registers.
 
-![Simulation Result](./Images/Simulation Result.png)
+![Simulation Result](./Images/SimulationResult.png)
 
 ## 🛠 Technical Specifications
 *   **Input Frequency:** Synchronous with the system clock.
