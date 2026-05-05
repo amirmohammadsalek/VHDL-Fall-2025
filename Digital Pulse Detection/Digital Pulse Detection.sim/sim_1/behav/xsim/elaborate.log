@@ -1,6 +1,6 @@
 Vivado Simulator 2019.1
 Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
-Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 7058c215b71d4a7b877a5b2561376859 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_Main_behav xil_defaultlib.tb_Main -log elaborate.log 
+Running: E:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 7058c215b71d4a7b877a5b2561376859 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Tb_Main_behav xil_defaultlib.Tb_Main -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -11,7 +11,7 @@ Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
-Compiling architecture rtl of entity xil_defaultlib.Glitch_Filter_V2 [glitch_filter_v2_default]
+Compiling architecture behavioral of entity xil_defaultlib.Glitch_Filter [glitch_filter_default]
 Compiling architecture behavioral of entity xil_defaultlib.Main [main_default]
 Compiling architecture behavioral of entity xil_defaultlib.tb_main
-Built simulation snapshot tb_Main_behav
+Built simulation snapshot Tb_Main_behav

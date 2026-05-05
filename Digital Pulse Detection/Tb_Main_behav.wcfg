@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Tb_Main_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Tb_Main" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="634000001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="196"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/Tb_Main/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Tb_Main/Reset_N" type="logic">
+      <obj_property name="ElementShortName">Reset_N</obj_property>
+      <obj_property name="ObjectShortName">Reset_N</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Tb_Main/Pulse_In" type="logic">
+      <obj_property name="ElementShortName">Pulse_In</obj_property>
+      <obj_property name="ObjectShortName">Pulse_In</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Tb_Main/Glitch_Filter_En" type="logic">
+      <obj_property name="ElementShortName">Glitch_Filter_En</obj_property>
+      <obj_property name="ObjectShortName">Glitch_Filter_En</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Tb_Main/Threshold_Short" type="array">
+      <obj_property name="ElementShortName">Threshold_Short[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Threshold_Short[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Tb_Main/Threshold_Medium" type="array">
+      <obj_property name="ElementShortName">Threshold_Medium[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Threshold_Medium[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Tb_Main/Alert_Threshold" type="array">
+      <obj_property name="ElementShortName">Alert_Threshold[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Alert_Threshold[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Tb_Main/Pulse_Filtered" type="logic">
+      <obj_property name="ElementShortName">Pulse_Filtered</obj_property>
+      <obj_property name="ObjectShortName">Pulse_Filtered</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Tb_Main/Alert" type="logic">
+      <obj_property name="ElementShortName">Alert</obj_property>
+      <obj_property name="ObjectShortName">Alert</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Tb_Main/Short_Count" type="array">
+      <obj_property name="ElementShortName">Short_Count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Short_Count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Tb_Main/Medium_Count" type="array">
+      <obj_property name="ElementShortName">Medium_Count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Medium_Count[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Tb_Main/Long_Count" type="array">
+      <obj_property name="ElementShortName">Long_Count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Long_Count[7:0]</obj_property>
+   </wvobject>
+</wave_config>

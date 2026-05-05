@@ -1,2 +1,6 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASA/Desktop/Digital Pulse Detection/Digital Pulse Detection.srcs/sim_1/new/TB_Main.vhd" into library xil_defaultlib
-INFO: [VRFC 10-3107] analyzing entity 'tb_Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASA/Documents/GitHub/VHDL_4041/Digital Pulse Detection/Digital Pulse Detection.srcs/sources_1/new/Glitch_Filter_V2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Glitch_Filter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASA/Documents/GitHub/VHDL_4041/Digital Pulse Detection/Digital Pulse Detection.srcs/sources_1/new/Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Main'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASA/Documents/GitHub/VHDL_4041/Digital Pulse Detection/Digital Pulse Detection.srcs/sim_1/new/TB_Main.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Tb_Main'

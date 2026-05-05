@@ -1,33 +1,33 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.NUMERIC_STD.ALL;
+Library Ieee;
+Use Ieee.Std_Logic_1164.All;
+Use Ieee.Numeric_Std.All;
 
-entity tb_Main is
+Entity Tb_Main Is
 
-end tb_Main;
+End Tb_Main;
 
-architecture Behavioral of tb_Main is
+Architecture Behavioral Of Tb_Main Is
 
-    signal Clk   : std_logic := '0';
-    signal Reset_n : std_logic := '0';
-    signal Pulse_In : std_logic := '0';
-    signal Glitch_Filter_En : std_logic := '0';
-    signal Threshold_Short  : std_logic_vector(7 downto 0) := x"03";
-    signal Threshold_Medium : std_logic_vector(7 downto 0) := x"05";
-    signal Alert_Threshold  : std_logic_vector(7 downto 0) := x"0A";
+    Signal Clk   : Std_Logic := '0';
+    Signal Reset_N : Std_Logic := '0';
+    Signal Pulse_In : Std_Logic := '0';
+    Signal Glitch_Filter_En : Std_Logic := '0';
+    Signal Threshold_Short  : Std_Logic_Vector(7 Downto 0) := X"03";
+    Signal Threshold_Medium : Std_Logic_Vector(7 Downto 0) := X"05";
+    Signal Alert_Threshold  : Std_Logic_Vector(7 Downto 0) := X"0A";
     
-    signal Pulse_Filtered : std_logic;
-    signal Alert          : std_logic;
-    signal Short_Count    : std_logic_vector(7 downto 0);
-    signal Medium_Count   : std_logic_vector(7 downto 0);
-    signal Long_Count     : std_logic_vector(7 downto 0);
+    Signal Pulse_Filtered : Std_Logic;
+    Signal Alert          : Std_Logic;
+    Signal Short_Count    : Std_Logic_Vector(7 Downto 0);
+    Signal Medium_Count   : Std_Logic_Vector(7 Downto 0);
+    Signal Long_Count     : Std_Logic_Vector(7 Downto 0);
 
-begin
+Begin
 
-    DUT: entity work.Main
-        port map(
+    Dut: Entity Work.Main
+        Port Map(
             Clk => Clk,
-            Reset_n => Reset_n,
+            Reset_N => Reset_N,
             Pulse_In => Pulse_In,
             Glitch_Filter_En => Glitch_Filter_En,
             Threshold_Short => Threshold_Short,
@@ -40,60 +40,60 @@ begin
             Long_Count => Long_Count
         );
 
-    Clk_process : process
-    begin
-        while true loop
+    Clk_Process : Process
+    Begin
+        While True Loop
             Clk <= '0';
-            wait for 5 ns;
+            Wait For 5 Ns;
             Clk <= '1';
-            wait for 5 ns;
-        end loop;
-    end process;
+            Wait For 5 Ns;
+        End Loop;
+    End Process;
 
 
-    stim_proc : process
-    begin
+    Stim_Proc : Process
+    Begin
     
-        Reset_n <= '0';
-        wait for 25 ns;
-        Reset_n <= '1';
+        Reset_N <= '0';
+        Wait For 25 Ns;
+        Reset_N <= '1';
 
 
         Pulse_In <= '1';
-        wait for 10 ns;
+        Wait For 10 Ns;
         Pulse_In <= '0';
-        wait for 20 ns;
+        Wait For 20 Ns;
 
         Pulse_In <= '1';
-        wait for 30 ns;
+        Wait For 30 Ns;
         Pulse_In <= '0';
-        wait for 20 ns;
+        Wait For 20 Ns;
 
         Pulse_In <= '1';
-        wait for 70 ns;
+        Wait For 70 Ns;
         Pulse_In <= '0';
-        wait for 10 ns;
+        Wait For 10 Ns;
         
         Glitch_Filter_En <= '1';
-        wait for 10 ns;
+        Wait For 10 Ns;
         
         Pulse_In <= '1';
-        wait for 90 ns;
+        Wait For 90 Ns;
         Pulse_In <= '0';
-        wait for 20 ns;
+        Wait For 20 Ns;
         
         Pulse_In <= '1';
-        wait for 130 ns;
+        Wait For 130 Ns;
         Pulse_In <= '0';
-        wait for 20 ns;
+        Wait For 20 Ns;
         
         Pulse_In <= '1';
-        wait for 10 ns;
+        Wait For 10 Ns;
         Pulse_In <= '0';
-        wait for 20 ns;
+        Wait For 20 Ns;
 
-        wait;
+        Wait;
 
-    end process;
+    End Process;
 
-end Behavioral;
+End Behavioral;

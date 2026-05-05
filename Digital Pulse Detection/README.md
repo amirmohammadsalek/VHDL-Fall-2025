@@ -19,12 +19,12 @@ Valid pulses (those that pass the filter) are measured and categorized into four
 ## 📟 Hardware Modules
 *   `Glitch_Filter.vhd`: Handles signal debouncing and noise suppression.
 *   `Main.vhd`: The top-level controller that manages time measurements and classification counters.
-*   `tb_Main.vhd`: Comprehensive testbench for timing verification.
+*   `TB_Main.vhd`: Comprehensive testbench for timing verification.
 
 ## 📈 Simulation Result
 The following waveform demonstrates the system's ability to filter out glitches and correctly increment the `Medium_Count` and `Long_Count` registers.
 
-![Simulation Waveform](./simulation_waveform.png)
+![Simulation Result](./Images/Simulation Result.png)
 
 ## 🛠 Technical Specifications
 *   **Input Frequency:** Synchronous with the system clock.
