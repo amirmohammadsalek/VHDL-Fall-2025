@@ -12,7 +12,7 @@ This repository contains a collection of digital system designs and hardware des
 
 Below is a list of projects and labs implemented in this repository:
 
-1.  **[Digital Pulse Detection](./Digital_Pulse_Detection):** A high-performance pulse width classifier with integrated glitch filtering logic.
+1.  **Digital Pulse Detection:** A high-performance pulse width classifier with integrated glitch filtering logic.
 
 ## 🛠 Tools Used
 *   **Language:** VHDL-93 / VHDL-2008
