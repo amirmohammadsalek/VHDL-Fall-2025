@@ -5,7 +5,7 @@ This repository contains a collection of digital system designs and hardware des
 ## 🎓 Course Information
 *   **Course:** Digital System Design (VHDL)
 *   **Institution:** Iran University of Science and Technology (IUST)
-*   **Instructor:** [Insert Professor's Name Here]
+*   **Instructor:** Prof. Sattar Mirzakuchaki
 *   **Semester:** Fall 2025
 
 ## 📁 Projects List
@@ -13,7 +13,6 @@ This repository contains a collection of digital system designs and hardware des
 Below is a list of projects and labs implemented in this repository:
 
 1.  **[Digital Pulse Detection](./Digital_Pulse_Detection):** A high-performance pulse width classifier with integrated glitch filtering logic.
-2.  *(Future projects can be added here)*
 
 ## 🛠 Tools Used
 *   **Language:** VHDL-93 / VHDL-2008
