@@ -3,7 +3,7 @@
 This repository contains a collection of digital system designs and hardware description language (HDL) projects completed during the **Fall 2025** semester at the **Iran University of Science and Technology (IUST)**.
 
 ## 🎓 Course Information
-*   **Course:** Digital System Design (VHDL)
+*   **Course:** VHDL
 *   **Institution:** Iran University of Science and Technology (IUST)
 *   **Instructor:** Prof. Sattar Mirzakuchaki
 *   **Semester:** Fall 2025
